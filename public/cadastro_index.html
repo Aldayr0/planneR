@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanneRecife</title>
+    <link rel="icon" type="image/png" href="img/logo2-removebg-preview.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="css/cadastro_index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<body style="background-color: #00B9DA;">
+
+    <nav class="navbar  navbar-light " style="background-color: #0295af; border-bottom: 1px white solid;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index_2.html">
+                <img src="img/logo2-removebg-preview.png" alt="" width="40" class="">
+                <span style="color: white;">PlanneRecife</span>
+            </a>
+
+            <form class="d-flex">
+                <a class="btn btn-outline-light me-2 " href="login.html">Login</a>
+                <a class="btn btn-outline-light active" href="#">Cadastro</a>
+            </form>
+        </div>
+        </div>
+
+
+    </nav>
+
+
+    <div class="container m-0 mt-5  d-flex">
+        <div class="row row-cols-1 align-items-center">
+
+            <div class="col-6 col-sm-10 col-md-9 col-lg-10 h1 text-white ">
+                <div class="box" id="box1">
+                    Bem vindo de volta
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="row">
+                    <div class="col-5 col-sm-9 col-md-9 text-white ms-3 ms-sm-0">
+                        <div class="box" id="box2">
+                            Gerencie seu tempo sabiamente e conquiste
+                            mais em seu dia
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row p-3 " style="border:#0295af solid 1px; box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);">
+            <div class="col-12" style="width: 500px;">
+                <h1 class="text-white mb-4 "
+                style="margin-left: 4.2em;">Cadastro</h1>
+                <form action="/cadastro" method="POST">
+                    <label for="nome" class="form-label text-white">Nome</label>
+                    <label for="sobrenome" class="form-label text-white" style="margin-left: 12.0em;">Sobrenome</label>
+                    <div class="col d-flex">
+                      <input type="text" name="nome" id="nome" class="form-control">
+                      <input type="text" name="sobrenome" id="sobrenome" class="form-control ms-1">
+                    </div>
+                    <label for="email" class="form-label text-white mt-1">Email</label>
+                    <input type="email" name="email" id="email" class="form-control">
+                    <label for="senha" class="form-label text-white mt-1">Senha</label>
+                    <label for="csenha" class="form-label text-white" style="margin-left: 12.0em;">Confirmar Senha</label>
+                    <div class="col d-flex">
+                      <input type="password" name="senha" id="senha" class="form-control">
+                      <input type="password" name="csenha" id="csenha" class="form-control ms-1">
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3" id="btnCadastrar" style="margin-left: 11.3em;">Cadastrar-se</button>
+                  </form>
+                  
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="/public/js/script.js"></script>
+</body>
+
+</html>

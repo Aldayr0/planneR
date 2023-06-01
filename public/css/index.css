@@ -1,0 +1,39 @@
+@media (min-width: 576px) {
+    #box2 {
+        font-size: 1.1em;
+    }
+    #box3 {
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 768px) {
+    #box2 {
+        font-size: 1.1em;
+    }
+    #box3 {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 992px) {
+    #box2 {
+        font-size: 2.0em;
+    }
+    #box3 {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 1200x) {
+    #box2 {
+        font-size: 40px;
+    }
+    #box3 {
+        font-size: 40px;
+    }
+    #img{
+        width: 400px;
+    }
+}
+

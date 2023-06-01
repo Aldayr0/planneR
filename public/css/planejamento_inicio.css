@@ -1,0 +1,20 @@
+
+.box1{
+    font-size: 1.8em;
+}
+#esquerda{
+    width: 200px;
+    height: 100%;
+}
+#direita{
+    border-right: solid white 1px ;
+ 
+}
+#d_cima{
+    border-bottom: solid white 1px;
+}
+#d_meio{
+    border-bottom: solid white 1px;
+    border-left:solid white 1px ;
+
+}

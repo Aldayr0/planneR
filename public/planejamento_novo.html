@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanneRecife</title>
+    <link rel="icon" type="image/png" href="img/logo2-removebg-preview.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/planejamento_novo.css">
+
+</head>
+
+<body style="background-color: #00B9DA;">
+
+
+    
+    <nav class=" navbar navbar-light " style=" background-color: #0295af; border-bottom: 1px white solid;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index_2.html">
+            <img src="img/logo2-removebg-preview.png" alt="" width="40" class="">
+            <span style="color: white;">PlanneRecife</span>
+        </a>
+
+
+
+        <form class="d-flex">
+            <img class="btn btn-outline-light p-0 me-1 " src="img/account_circle.png " width="42" alt="">
+            <a class="btn btn-outline-light" href="index_2.html">Sair</a>
+        </form>
+    </div>
+    </div>
+    </nav>
+
+    <div class="container-fluid d-flex overflow-hidden ">
+
+        <div class="container w-25 m-0 p-0 ">
+
+
+            <div class="row row-cols-1 bg-row text-center text-white">
+                <a href="planejamento_inicio2.html" class="col text-white p-3 bg-box text-decoration-none">
+                    *planejamentos
+                </a>
+
+                <a href="planejamento_novo.html" class="col text-white p-2 bg-box text-decoration-none">
+                    Novo<br>Planejamento
+                </a>
+
+                <a href="Planejamento_nova_turma.html" class="col text-white p-1 bg-box text-decoration-none">
+                    *Nova<br>Turma
+                </a>
+
+
+            </div>
+
+        </div>
+
+        <div class="container m-0 ms-4 p-0">
+            <div class="row bg-row b_direita text-white pt-2 pb-2 " style=" border-bottom: solid white 0.1em;">
+                <div class="col ms-3 align-self-center">
+                    <div href="#" class="text-white">
+                        *Selecionar data:
+                    </div>
+                </div>
+
+                <form class="col-9 text-white">
+
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label" for="data-inicio">*Data de início:</label>
+                        </div>
+                        <div class="col-9 me-2">
+                            <label class="form-label" for="data-termino">*Data de término:</label>
+                        </div>
+                    </div>
+                    <div class="col">
+
+                        <select class="form-select dia w-auto d-inline m-1 p-0 ps-1 pe-4" id="diainicio" name="dia"
+                            style="border-radius: 4px; border: solid 0.1em white; 
+                            ">
+                            <option value="01">1</option>
+                            <option value="02">2</option>
+                            <option value="03">3</option>
+                            <option value="04">4</option>
+                            <option value="05">5</option>
+                            <option value="06">6</option>
+                            <option value="07">7</option>
+                            <option value="08">8</option>
+                            <option value="09">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <select class="form-select w-auto d-inline p-0 ps-1 pe-2" id="mes" name="mesinicio" style="border-radius: 4px; border: solid 0.1em white;
+                            ">
+
+                            <option value="01">Janeiro</option>
+                            <option value="02">Fevereiro</option>
+                            <option value="03">Março</option>
+                            <option value="04">Abril</option>
+                            <option value="05">Maio</option>
+                            <option value="06">Junho</option>
+                            <option value="07">Julho</option>
+                            <option value="08">Agosto</option>
+                            <option value="09">Setembro</option>
+                            <option value="10">Outubro</option>
+                            <option value="11">Novembro</option>
+                            <option value="12">Dezembro</option>
+                        </select>
+
+                        <select class="form-select dia w-auto d-inline m-1 p-0 ps-3 pe-3" id="dia" name="dia" style="border-radius: 4px; border: solid 0.1em white; 
+                            ">
+                            <option value="01">1</option>
+                            <option value="02">2</option>
+                            <option value="03">3</option>
+                            <option value="04">4</option>
+                            <option value="05">5</option>
+                            <option value="06">6</option>
+                            <option value="07">7</option>
+                            <option value="08">8</option>
+                            <option value="09">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <select class="form-select w-auto d-inline p-0 ps-1 pe-3" id="mes" name="mes" style="border-radius: 4px; border: solid 0.1em white;
+                            ">
+
+                            <option value="01">Janeiro</option>
+                            <option value="02">Fevereiro</option>
+                            <option value="03">Março</option>
+                            <option value="04">Abril</option>
+                            <option value="05">Maio</option>
+                            <option value="06">Junho</option>
+                            <option value="07">Julho</option>
+                            <option value="08">Agosto</option>
+                            <option value="09">Setembro</option>
+                            <option value="10">Outubro</option>
+                            <option value="11">Novembro</option>
+                            <option value="12">Dezembro</option>
+                        </select>
+                        <input class="btn btn-outline-light p-1" type="submit" value="Pesquisar">
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="row b_direita text-white " style="border-left: solid white 0.1em; 
+            border-right: solid white 0.1em;">
+                <div class="col p-3 text-center ">
+                    <div class="box">
+                        Selecione as opções abaixo
+                    </div>
+                </div>
+            </div>
+            <div class="row text-white pb-2" style="border-left: solid white 0.1em; 
+            border-right: solid white 0.1em;">
+                <div class="col offset-1 me-4">
+                    
+                </div>
+                <div class="col">
+                   
+                </div>
+                <div class="col">
+                    
+                </div>
+
+            </div>
+
+            <div class="row text-white ps-3 pt-3 pb-2" style="border: white solid 0.1em;">
+                <div class="col-1">
+                Dia Turma
+                </div>
+                <div class="col">
+                    <label class="form-label" for="situacaonovo">Dia da semana</label>
+                    <select name="nomeEscola" id="diaSemana" class="form-select w-auto d-inline p-0 ps-1 pe-5">
+                        <option selected value="segunda">selecionar dia</option>
+                        <option value="Segunda">segunda-feira</option>
+                        <option value="Terça">terça-feira</option>
+                        <option value="Quarta">Quarta-feira</option>
+                        <option value="Quinta">Quinta-feira</option>
+                        <option value="Sexta">sexta-feira</option>
+                        
+
+                    </select>
+                </div>
+                <div class="col">
+                    <label class="form-label me-5" for="situacaonovo">Série</label>
+                    <select name="nomeEscola" id="serienovo" class="form-select w-auto d-inline p-0 ps-1 pe-5">
+                        <option selected value="Primeiro Ano">selecione</option>
+                        <option value="Segundo Ano"> Segundo Ano </option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label class="form-label " for="situacaonovo" style="margin-right: 90px;">Turma</label>
+                    <select name="nomeEscola" id="turmanovo" class="form-select w-auto d-inline p-0 ps-1 pe-5">
+                        <option selected value="se">selecione</option>
+                        <option value="A"> A </option>
+                        <option value="B"> B </option>
+                        <option value="B"> C </option>
+
+
+                    </select>
+                </div>
+                <div class="col">
+                    <label class="form-label " for="situacaonovo" style="margin-right: 90px;">Turno</label>
+                    <select name="nomeEscola" id="turnonovo" class="form-select w-auto d-inline p-0 ps-1 pe-5">
+                        <option selected value="Manhã">selecione</option>
+                        <option value="Manha">Manhã</option>
+                        <option value="Tarde">Tarde</option>
+                    </select>
+                </div>
+
+
+            </div>
+
+            <div class="row text-white ps-3 pt-3 pb-2" style="border: white solid 0.1em;">
+                <div class="col-3">
+                    Componente Curricular:
+                </div>
+                <div class="col-3">
+                    <select name="nomeEscola" id="componentenovo" class="form-select w-auto d-inline p-0 ps-1 pe-5">
+                        <option selected value="">Selecionar</option>
+                        <option value="Ciências">Ciências</option>
+                        
+                    </select>
+                </div>
+                <div class="col-2">
+                    <select name="nomeEscola" id="eixonovo" class="form-select w-auto d-inline p-0 ps-1 pe-5">
+                        <option selected value="0">selecionar Eixo</option>
+                        <option value="Terra e Universo">Terra e Universo</option>
+                    </select>
+                </div>
+                <div class="col-2">
+                    <select name="nomeEscola" id="conteudonovo" class="form-select w-auto d-inline ms-5 p-0  ps-1 pe-5">
+                        <option value="conteudos"> selecionar Conteudos</option>
+                        <option value="O planeta terra">O planeta terra</option>
+                        <option value="Movimentos de rotação">Movimento de rotação</option>
+
+                    </select>
+                </div>
+
+
+
+            </div>
+
+            <div class="row text-white ps-3 pt-3 pb-2" style="border: white solid 0.1em;">
+                <div class="col-3">
+                    <form class="">
+                        <div class="row">
+                            <div class="col">
+                                <label class="form-label" for="situacaonovo">Situação Didatica</label>
+                                <textarea class="form-control p-5 situacaonovo" type="text" name="situacaonovo"
+                                    id="situacaonovo"> </textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col offset-3">
+                    <label class="form-label" for="mdidatico">Materiais Utilizados</label>
+                    <select class="form-select w-auto d-inline p-0 ps-1 pe-5" name="mdidatico" id="materiaisnovo">
+                        <option selected value="Lapis">Selecione</option>
+                        <option value="Caderno">Caderno</option>
+                        <option value="Atividade xerocopiada">Atividade xerocopiada</option>
+                        <option value ="Livro didático" >Livro didático</option>
+
+
+                    </select>
+                </div>
+                <div class="col align-self-end ms-3 ps-2 pe-0">
+                    <button class="btn btn-outline-light" class="btn-close" data-bs-dismiss="modal"
+                        onclick="adicionarLinha()">Salvar</button>
+                    <button class="btn btn-outline-light" id="imprimirnovo" data-bs-toggle="modal"
+                        data-bs-target="#modal">visualizar</button>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <!-- <button onclick="adicionarLinha()" 
+                        class="btn btn-primary"  
+                        data-bs-toggle="modal" data-bs-target="#modal">Visualizar</button> -->
+
+
+
+        <div class="modal fade  " id="modal">
+            <div class="modal-dialog modal-fullscreen ">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="text-dark">Planejamento</h1>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-content ">
+
+                        <table id="tabela" class="table table-striped table-hover table-bordered">
+                            <thead >
+                                <tr >
+                                    <th>dia da semana</th>
+                                    <th>Série</th>
+                                    <th>Turma</th>
+                                    <th>Turno</th>
+                                    <th>Disciplina</th>
+                                    <th>Eixo</th>
+                                    <th>Conteudo</th>
+                                    <th>Situação</th>
+                                    <th>Materiais</th>
+                                </tr>
+                            </thead>
+                            <tbody class="">
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-outline-dark" onclick="imprimirTabela()">Imprimir</button>
+                    
+                    </div>
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <script>
+        function adicionarLinha() {
+            var escola = document.getElementById("diaSemana").value;
+            var serie = document.getElementById("serienovo").value;
+            var turma = document.getElementById("turmanovo").value;
+            var turno = document.getElementById("turnonovo").value;
+            var situacao = document.getElementById("situacaonovo").value;
+            var didatica = document.getElementById("materiaisnovo").value;
+
+            var componentenovo = document.getElementById("componentenovo").value;
+            var eixonovo = document.getElementById("eixonovo").value;
+            var conteudonovo = document.getElementById("conteudonovo").value;
+
+
+
+            var tabela = document.getElementById("tabela");
+            var tbody = tabela.getElementsByTagName("tbody")[0];
+
+            var novaLinha = document.createElement("tr");
+            novaLinha.innerHTML = "<td>" + escola +
+                "</td><td>" + serie + "</td><td>"
+                + turma + "</td><td>" + turno + "</td><td>"
+
+                + componentenovo + "</td><td>" + eixonovo + "</td><td>" + conteudonovo + "</td><td>" +
+
+                situacao + "</td><td>" + didatica +
+                 "</td><td><button class='btn btn-outline-dark' onclick='excluirLinha(this)'>Excluir</button></td>" ;
+            
+            tbody.appendChild(novaLinha);
+        }
+        function imprimirTabela() {
+            window.print();
+        }
+        function excluirLinha(botao) {
+          var linha = botao.parentNode.parentNode;
+          linha.parentNode.removeChild(linha);
+        }
+        function baixarTabela() {
+            var tabelaHTML = document.getElementById("tabela").outerHTML;
+            var filename = "tabela.html";
+            var element = document.createElement('a');
+            element.setAttribute('href', 'data:text/html;charset=utf-8,' + encodeURIComponent(tabelaHTML));
+            element.setAttribute('download', filename);
+            element.style.display = 'none';
+            document.body.appendChild(element);
+            element.click();
+            document.body.removeChild(element);
+        }
+    </script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,28 @@
+
+
+@media (min-width: 576px) {
+    
+    #box1{
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    #box1{
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 992px) {
+    
+
+    #box1{
+        font-size: 1.6em;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    
+}

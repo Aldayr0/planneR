@@ -1,0 +1,73 @@
+@media (min-width: 576px) {
+    body::after {
+        content: "Extra small (<=576px)";
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        padding: 5px;
+        background-color: #000;
+        color: #fff;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    body::after {
+        content: "Small (>=576px and <=768px)";
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        padding: 5px;
+        background-color: #000;
+        color: #fff;
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    body::after {
+        content: "Medium (>=768px and <=992px)";
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        padding: 5px;
+        background-color: #000;
+        color: #fff;
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    body::after {
+        content: "Large (>=992px and <=1200px)";
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        padding: 5px;
+        background-color: #000;
+        color: #fff;
+        font-size: 12px;
+
+    }
+}
+
+
+
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+   
+}
+
+@media (min-width: 1200x) {
+    
+}

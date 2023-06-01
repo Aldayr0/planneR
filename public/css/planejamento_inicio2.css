@@ -1,0 +1,13 @@
+
+
+.bg-box{
+    border:solid 0.1em white;
+    border-right: solid 0em white;
+    font-size: 1.1em;
+    
+}
+
+.b_direita{
+    border-left: solid 0.1em white;
+    border-right: solid 0.1em white;
+}
